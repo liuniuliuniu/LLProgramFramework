@@ -1,0 +1,22 @@
+platform :ios, ‘8.0’
+
+target 'LLProgramFramework' do
+
+
+    pod 'AFNetworking', :inhibit_warnings => true
+    pod 'Masonry'
+    pod 'MBProgressHUD'
+    pod 'SDWebImage'
+    pod 'MJRefresh'
+    pod 'MJExtension'
+    pod 'FMDB'
+    pod 'IQKeyboardManager'
+    pod 'UITableView+FDTemplateLayoutCell'
+    pod 'ReactiveCocoa','~>2.1.8'
+    pod 'Reachability'
+    pod 'UICKeyChainStore'
+    #pod 'SDVersion', '~>2.4'
+    #pod 'FDFullscreenPopGesture'
+
+
+end
