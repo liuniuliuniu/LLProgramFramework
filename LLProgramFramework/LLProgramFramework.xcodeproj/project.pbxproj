@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4AB2B11F5ED2120082DC13 /* LLKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4AB2B01F5ED2120082DC13 /* LLKeyValueStore.m */; };
 		C417DDAD5A775A709AC1851C /* libPods-LLProgramFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B54360FE5A34F0F7CC5CDFF2 /* libPods-LLProgramFramework.a */; };
 		D273D9E71EB32C8700397599 /* LLPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D273D9E61EB32C8700397599 /* LLPlaceholderTextView.m */; };
 		D292E5451E950C1800EA0D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E5441E950C1800EA0D16 /* main.m */; };
@@ -55,7 +56,6 @@
 		D2977B0F1EB08B0800138922 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2977B081EB08B0800138922 /* MeViewController.xib */; };
 		D2977B161EB08B1000138922 /* XAFServicesMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B151EB08B1000138922 /* XAFServicesMVC.m */; };
 		D2977B471EB08B1A00138922 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B1A1EB08B1900138922 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		D2977B481EB08B1A00138922 /* XKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B1D1EB08B1900138922 /* XKeyValueStore.m */; };
 		D2977B491EB08B1A00138922 /* YTKKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B201EB08B1900138922 /* YTKKeyValueStore.m */; };
 		D2977B4A1EB08B1A00138922 /* XAFCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B251EB08B1A00138922 /* XAFCommonParamsGenerator.m */; };
 		D2977B4B1EB08B1A00138922 /* XAFRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B271EB08B1A00138922 /* XAFRequestGenerator.m */; };
@@ -94,6 +94,8 @@
 /* Begin PBXFileReference section */
 		3080D7B7EB27A98F83BF7A38 /* Pods-LLProgramFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLProgramFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLProgramFramework/Pods-LLProgramFramework.release.xcconfig"; sourceTree = "<group>"; };
 		533FEF0E91AE415669FB93A6 /* Pods-LLProgramFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLProgramFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLProgramFramework/Pods-LLProgramFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		8C4AB2AF1F5ED2120082DC13 /* LLKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLKeyValueStore.h; sourceTree = "<group>"; };
+		8C4AB2B01F5ED2120082DC13 /* LLKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLKeyValueStore.m; sourceTree = "<group>"; };
 		B54360FE5A34F0F7CC5CDFF2 /* libPods-LLProgramFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLProgramFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D273D9E51EB32C8700397599 /* LLPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlaceholderTextView.h; sourceTree = "<group>"; };
 		D273D9E61EB32C8700397599 /* LLPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlaceholderTextView.m; sourceTree = "<group>"; };
@@ -190,8 +192,6 @@
 		D2977B151EB08B1000138922 /* XAFServicesMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAFServicesMVC.m; sourceTree = "<group>"; };
 		D2977B191EB08B1900138922 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		D2977B1A1EB08B1900138922 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		D2977B1C1EB08B1900138922 /* XKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKeyValueStore.h; sourceTree = "<group>"; };
-		D2977B1D1EB08B1900138922 /* XKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKeyValueStore.m; sourceTree = "<group>"; };
 		D2977B1F1EB08B1900138922 /* YTKKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKKeyValueStore.h; sourceTree = "<group>"; };
 		D2977B201EB08B1900138922 /* YTKKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKKeyValueStore.m; sourceTree = "<group>"; };
 		D2977B241EB08B1A00138922 /* XAFCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAFCommonParamsGenerator.h; sourceTree = "<group>"; };
@@ -587,8 +587,8 @@
 		D2977B1B1EB08B1900138922 /* XKeyValueStore */ = {
 			isa = PBXGroup;
 			children = (
-				D2977B1C1EB08B1900138922 /* XKeyValueStore.h */,
-				D2977B1D1EB08B1900138922 /* XKeyValueStore.m */,
+				8C4AB2AF1F5ED2120082DC13 /* LLKeyValueStore.h */,
+				8C4AB2B01F5ED2120082DC13 /* LLKeyValueStore.m */,
 				D2977B1E1EB08B1900138922 /* YTKKeyValueStore */,
 			);
 			path = XKeyValueStore;
@@ -881,7 +881,6 @@
 				D292E5C21E9513B800EA0D16 /* NSString+URL.m in Sources */,
 				D273D9E71EB32C8700397599 /* LLPlaceholderTextView.m in Sources */,
 				D2977B501EB08B1A00138922 /* NSURLRequest+XNetworkingMethods.m in Sources */,
-				D2977B481EB08B1A00138922 /* XKeyValueStore.m in Sources */,
 				D2977B4C1EB08B1A00138922 /* NSArray+XAFNetworking.m in Sources */,
 				D292E5D21E9513B800EA0D16 /* UIButton+Addition.m in Sources */,
 				D292E5BE1E9513B800EA0D16 /* NSDate+String.m in Sources */,
@@ -922,6 +921,7 @@
 				D2977B471EB08B1A00138922 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				D292E5C61E9513B800EA0D16 /* UIView+Frame.m in Sources */,
 				D2977B0C1EB08B0800138922 /* RequestManage.m in Sources */,
+				8C4AB2B11F5ED2120082DC13 /* LLKeyValueStore.m in Sources */,
 				D2977B0A1EB08B0800138922 /* HomeViewController.m in Sources */,
 				D292E5451E950C1800EA0D16 /* main.m in Sources */,
 				D292E5BA1E9513B800EA0D16 /* BaseNavigationController.m in Sources */,

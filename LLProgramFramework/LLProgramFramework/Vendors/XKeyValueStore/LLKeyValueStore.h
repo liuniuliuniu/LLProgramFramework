@@ -1,17 +1,19 @@
 //
-//  XKeyValueStore.h
-//  TTlc
+//  LLKeyValueStore.h
+//  LLFMDB
 //
-//  Created by wangxi1-ps on 2016/11/29.
-//  Copyright © 2016年 wangxi. All rights reserved.
+//  Created by 大影象科技 on 2017/4/5.
+//  Copyright © 2017年 liushaohua. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface XKeyValueStore : NSObject
-+ (XKeyValueStore *)sharedStore;
+@interface LLKeyValueStore : NSObject
 
-+(NSString *)dbPath;
++ (instancetype)shareStore;
+
+/**获取存储路径*/
++ (NSString *)dbPath;
 
 /**
  *  需要用到的时候去创建
@@ -30,10 +32,12 @@
 - (NSNumber *)getNumberById:(NSString *)numberId fromTable:(NSString *)tableName;
 - (id)getObjectById:(NSString *)objectId fromTable:(NSString *)tableName;
 
-
 // 删除指定key的数据
 - (void)deleteObjectById:(NSString *)objectId fromTable:(NSString *)tableName;
+
 // 批量删除一组key数组的数据
 - (void)deleteObjectsByIdArray:(NSArray *)objectIdArray fromTable:(NSString *)tableName;
 - (NSArray *)getAllItemsFromTable:(NSString *)tableName;
+
+
 @end
