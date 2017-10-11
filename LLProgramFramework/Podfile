@@ -8,7 +8,7 @@ target 'LLProgramFramework' do
     pod 'MBProgressHUD'
     pod 'SDWebImage'
     pod 'MJRefresh'
-    pod 'MJExtension'
+    pod 'YYModel'
     pod 'FMDB'
     pod 'IQKeyboardManager'
     pod 'UITableView+FDTemplateLayoutCell'

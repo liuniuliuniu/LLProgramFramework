@@ -1,7 +1,7 @@
 {
     "tabbar_items":[
                     {
-                    "page":"HomeViewController",
+                    "page":"LLHomeViewController",
                     "type":"home",
                     "title":"首页",
                     "normal_icon":"home",

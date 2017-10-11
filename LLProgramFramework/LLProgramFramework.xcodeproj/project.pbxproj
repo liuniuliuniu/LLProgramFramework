@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8C4AB2B11F5ED2120082DC13 /* LLKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4AB2B01F5ED2120082DC13 /* LLKeyValueStore.m */; };
+		96A3E48A1F8DFFA800E18557 /* LLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A3E4891F8DFFA800E18557 /* LLHomeViewController.m */; };
+		96A3E48D1F8DFFC100E18557 /* LLHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A3E48C1F8DFFC100E18557 /* LLHomeModel.m */; };
+		96A3E4951F8E01C100E18557 /* RequestManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A3E4941F8E01C100E18557 /* RequestManage.m */; };
+		96A3E4991F8E061200E18557 /* LLHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A3E4971F8E061200E18557 /* LLHomeCell.m */; };
+		96A3E49A1F8E061200E18557 /* LLHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A3E4981F8E061200E18557 /* LLHomeCell.xib */; };
 		C417DDAD5A775A709AC1851C /* libPods-LLProgramFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B54360FE5A34F0F7CC5CDFF2 /* libPods-LLProgramFramework.a */; };
 		D273D9E71EB32C8700397599 /* LLPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D273D9E61EB32C8700397599 /* LLPlaceholderTextView.m */; };
 		D292E5451E950C1800EA0D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E5441E950C1800EA0D16 /* main.m */; };
@@ -47,10 +52,6 @@
 		D292E5D31E9513B800EA0D16 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E5B61E9513B800EA0D16 /* UILabel+Addition.m */; };
 		D292E5D41E9513B800EA0D16 /* UITextField+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E5B81E9513B800EA0D16 /* UITextField+Addition.m */; };
 		D2977AF81EB08AFD00138922 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = D2977AF71EB08AFD00138922 /* menu.json */; };
-		D2977B091EB08B0800138922 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977AFC1EB08B0800138922 /* HomeModel.m */; };
-		D2977B0A1EB08B0800138922 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977AFE1EB08B0800138922 /* HomeViewController.m */; };
-		D2977B0B1EB08B0800138922 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2977AFF1EB08B0800138922 /* HomeViewController.xib */; };
-		D2977B0C1EB08B0800138922 /* RequestManage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B011EB08B0800138922 /* RequestManage.m */; };
 		D2977B0D1EB08B0800138922 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B041EB08B0800138922 /* MainViewController.m */; };
 		D2977B0E1EB08B0800138922 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B071EB08B0800138922 /* MeViewController.m */; };
 		D2977B0F1EB08B0800138922 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2977B081EB08B0800138922 /* MeViewController.xib */; };
@@ -96,6 +97,15 @@
 		533FEF0E91AE415669FB93A6 /* Pods-LLProgramFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLProgramFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLProgramFramework/Pods-LLProgramFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		8C4AB2AF1F5ED2120082DC13 /* LLKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLKeyValueStore.h; sourceTree = "<group>"; };
 		8C4AB2B01F5ED2120082DC13 /* LLKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLKeyValueStore.m; sourceTree = "<group>"; };
+		96A3E4881F8DFFA800E18557 /* LLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHomeViewController.h; sourceTree = "<group>"; };
+		96A3E4891F8DFFA800E18557 /* LLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHomeViewController.m; sourceTree = "<group>"; };
+		96A3E48B1F8DFFC100E18557 /* LLHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHomeModel.h; sourceTree = "<group>"; };
+		96A3E48C1F8DFFC100E18557 /* LLHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHomeModel.m; sourceTree = "<group>"; };
+		96A3E4931F8E01C100E18557 /* RequestManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManage.h; sourceTree = "<group>"; };
+		96A3E4941F8E01C100E18557 /* RequestManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManage.m; sourceTree = "<group>"; };
+		96A3E4961F8E061200E18557 /* LLHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHomeCell.h; sourceTree = "<group>"; };
+		96A3E4971F8E061200E18557 /* LLHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHomeCell.m; sourceTree = "<group>"; };
+		96A3E4981F8E061200E18557 /* LLHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLHomeCell.xib; sourceTree = "<group>"; };
 		B54360FE5A34F0F7CC5CDFF2 /* libPods-LLProgramFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLProgramFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D273D9E51EB32C8700397599 /* LLPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlaceholderTextView.h; sourceTree = "<group>"; };
 		D273D9E61EB32C8700397599 /* LLPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlaceholderTextView.m; sourceTree = "<group>"; };
@@ -176,13 +186,6 @@
 		D2977AF41EB08A8000138922 /* Notification_Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification_Macro.h; sourceTree = "<group>"; };
 		D2977AF51EB08A8000138922 /* Utilities_Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities_Macro.h; sourceTree = "<group>"; };
 		D2977AF71EB08AFD00138922 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
-		D2977AFB1EB08B0800138922 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
-		D2977AFC1EB08B0800138922 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
-		D2977AFD1EB08B0800138922 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		D2977AFE1EB08B0800138922 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		D2977AFF1EB08B0800138922 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		D2977B001EB08B0800138922 /* RequestManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManage.h; sourceTree = "<group>"; };
-		D2977B011EB08B0800138922 /* RequestManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManage.m; sourceTree = "<group>"; };
 		D2977B031EB08B0800138922 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D2977B041EB08B0800138922 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D2977B061EB08B0800138922 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
@@ -269,6 +272,50 @@
 				B54360FE5A34F0F7CC5CDFF2 /* libPods-LLProgramFramework.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96A3E4851F8DFF8E00E18557 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96A3E48B1F8DFFC100E18557 /* LLHomeModel.h */,
+				96A3E48C1F8DFFC100E18557 /* LLHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A3E4861F8DFF8E00E18557 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96A3E4881F8DFFA800E18557 /* LLHomeViewController.h */,
+				96A3E4891F8DFFA800E18557 /* LLHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A3E4871F8DFF8E00E18557 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96A3E4961F8E061200E18557 /* LLHomeCell.h */,
+				96A3E4971F8E061200E18557 /* LLHomeCell.m */,
+				96A3E4981F8E061200E18557 /* LLHomeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96A3E4911F8E00F400E18557 /* HomeAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				96A3E4931F8E01C100E18557 /* RequestManage.h */,
+				96A3E4941F8E01C100E18557 /* RequestManage.m */,
+			);
+			path = HomeAPIManager;
+			sourceTree = "<group>";
+		};
+		96A3E4921F8E010100E18557 /* MeAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MeAPIManager;
 			sourceTree = "<group>";
 		};
 		D292E5371E950C1800EA0D16 = {
@@ -502,13 +549,9 @@
 		D2977AFA1EB08B0800138922 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D2977AFB1EB08B0800138922 /* HomeModel.h */,
-				D2977AFC1EB08B0800138922 /* HomeModel.m */,
-				D2977AFD1EB08B0800138922 /* HomeViewController.h */,
-				D2977AFE1EB08B0800138922 /* HomeViewController.m */,
-				D2977AFF1EB08B0800138922 /* HomeViewController.xib */,
-				D2977B001EB08B0800138922 /* RequestManage.h */,
-				D2977B011EB08B0800138922 /* RequestManage.m */,
+				96A3E4861F8DFF8E00E18557 /* Controller */,
+				96A3E4851F8DFF8E00E18557 /* Model */,
+				96A3E4871F8DFF8E00E18557 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -536,6 +579,7 @@
 			isa = PBXGroup;
 			children = (
 				D2977B111EB08B1000138922 /* ApiManager */,
+				D2977B211EB08B1900138922 /* XNetworking */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -551,18 +595,20 @@
 		D2977B121EB08B1000138922 /* ApiService */ = {
 			isa = PBXGroup;
 			children = (
-				D2977B131EB08B1000138922 /* MVC */,
+				D2977B131EB08B1000138922 /* BaseAPI */,
+				96A3E4911F8E00F400E18557 /* HomeAPIManager */,
+				96A3E4921F8E010100E18557 /* MeAPIManager */,
 			);
 			path = ApiService;
 			sourceTree = "<group>";
 		};
-		D2977B131EB08B1000138922 /* MVC */ = {
+		D2977B131EB08B1000138922 /* BaseAPI */ = {
 			isa = PBXGroup;
 			children = (
 				D2977B141EB08B1000138922 /* XAFServicesMVC.h */,
 				D2977B151EB08B1000138922 /* XAFServicesMVC.m */,
 			);
-			path = MVC;
+			path = BaseAPI;
 			sourceTree = "<group>";
 		};
 		D2977B171EB08B1900138922 /* Vendors */ = {
@@ -570,7 +616,6 @@
 			children = (
 				D2977B181EB08B1900138922 /* FDFullscreenPopGesture */,
 				D2977B1B1EB08B1900138922 /* XKeyValueStore */,
-				D2977B211EB08B1900138922 /* XNetworking */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -792,12 +837,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A3E49A1F8E061200E18557 /* LLHomeCell.xib in Resources */,
 				D2977AF81EB08AFD00138922 /* menu.json in Resources */,
 				D292E5CE1E9513B800EA0D16 /* NoneDataPage.xib in Resources */,
 				D292E5D01E9513B800EA0D16 /* NoneLoadPage.xib in Resources */,
 				D292E5531E950C1800EA0D16 /* LaunchScreen.storyboard in Resources */,
 				D292E5501E950C1800EA0D16 /* Assets.xcassets in Resources */,
-				D2977B0B1EB08B0800138922 /* HomeViewController.xib in Resources */,
 				D2977B0F1EB08B0800138922 /* MeViewController.xib in Resources */,
 				D292E54E1E950C1800EA0D16 /* Main.storyboard in Resources */,
 			);
@@ -826,9 +871,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLProgramFramework/Pods-LLProgramFramework-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -841,13 +890,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLProgramFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F7BCC525EE8A3E36540A2C7D /* [CP] Embed Pods Frameworks */ = {
@@ -877,6 +929,8 @@
 				D2977B571EB08B1A00138922 /* XAFServiceFactory.m in Sources */,
 				D2977B4D1EB08B1A00138922 /* NSDictionary+XAFNetworking.m in Sources */,
 				D2977B521EB08B1A00138922 /* XAFAPIBaseManager.m in Sources */,
+				96A3E4991F8E061200E18557 /* LLHomeCell.m in Sources */,
+				96A3E48A1F8DFFA800E18557 /* LLHomeViewController.m in Sources */,
 				D2977B551EB08B1A00138922 /* XAFHttpClient.m in Sources */,
 				D292E5C21E9513B800EA0D16 /* NSString+URL.m in Sources */,
 				D273D9E71EB32C8700397599 /* LLPlaceholderTextView.m in Sources */,
@@ -885,6 +939,7 @@
 				D292E5D21E9513B800EA0D16 /* UIButton+Addition.m in Sources */,
 				D292E5BE1E9513B800EA0D16 /* NSDate+String.m in Sources */,
 				D2977B491EB08B1A00138922 /* YTKKeyValueStore.m in Sources */,
+				96A3E4951F8E01C100E18557 /* RequestManage.m in Sources */,
 				D2977B4F1EB08B1A00138922 /* NSString+XAFNetworking.m in Sources */,
 				D292E54B1E950C1800EA0D16 /* ViewController.m in Sources */,
 				D292E5CA1E9513B800EA0D16 /* NSString+NSJSONSerialization.m in Sources */,
@@ -906,10 +961,10 @@
 				D2977B161EB08B1000138922 /* XAFServicesMVC.m in Sources */,
 				D292E5BD1E9513B800EA0D16 /* NSArray+XJSONString.m in Sources */,
 				D292E5CF1E9513B800EA0D16 /* NoneLoadPage.m in Sources */,
-				D2977B091EB08B0800138922 /* HomeModel.m in Sources */,
 				D292E5CD1E9513B800EA0D16 /* NoneDataPage.m in Sources */,
 				D2977B0D1EB08B0800138922 /* MainViewController.m in Sources */,
 				D2977B531EB08B1A00138922 /* XAFApiProxy.m in Sources */,
+				96A3E48D1F8DFFC100E18557 /* LLHomeModel.m in Sources */,
 				D292E5CC1E9513B800EA0D16 /* AuthCodeView.m in Sources */,
 				D292E5B91E9513B800EA0D16 /* BaseModel.m in Sources */,
 				D2977B581EB08B1A00138922 /* XAFServices.m in Sources */,
@@ -920,9 +975,7 @@
 				D292E5C41E9513B800EA0D16 /* UIImage+Color.m in Sources */,
 				D2977B471EB08B1A00138922 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				D292E5C61E9513B800EA0D16 /* UIView+Frame.m in Sources */,
-				D2977B0C1EB08B0800138922 /* RequestManage.m in Sources */,
 				8C4AB2B11F5ED2120082DC13 /* LLKeyValueStore.m in Sources */,
-				D2977B0A1EB08B0800138922 /* HomeViewController.m in Sources */,
 				D292E5451E950C1800EA0D16 /* main.m in Sources */,
 				D292E5BA1E9513B800EA0D16 /* BaseNavigationController.m in Sources */,
 				D2977B561EB08B1A00138922 /* XURLResponse.m in Sources */,

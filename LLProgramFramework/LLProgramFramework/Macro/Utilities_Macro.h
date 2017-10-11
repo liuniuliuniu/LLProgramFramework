@@ -26,11 +26,18 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-/*app block 调用
- */
-#define CBInvokeBlock(block, ...) \
-if (block)                      \
-block(__VA_ARGS__)
+#define NAVIGATION_HEIGHT (IS_IPHONEX ? 88 : 64)
+#define NAVIGATION_HEIGHT_IPHONEX 88
+#define TAB_BAR_HEIGHT (IS_IPHONEX ? 83 : 49)
+#define STATUS_BAR_HEIGHT (IS_IPHONEX ? 44 : 20)
+
+
+// MARK: 设备相关
+#define IS_IPHONE4 [[UIScreen mainScreen] bounds].size.height == 480.0
+#define IS_IPHONE5 [[UIScreen mainScreen] bounds].size.height == 568.0
+#define IS_IPHONE6 [[UIScreen mainScreen] bounds].size.height == 667.0
+#define IS_IPHONE6PLUS [[UIScreen mainScreen] bounds].size.height == 736.0
+#define IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
 
 #define IOS10_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0)
 #define IOS9_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
@@ -38,6 +45,15 @@ block(__VA_ARGS__)
 #define IOS7_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
 #define IOS6_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
 #define IOS8_OR_EARLY ([[[UIDevice currentDevice] systemVersion] floatValue] < 9.0)
+
+/*app block 调用
+ */
+#define CBInvokeBlock(block, ...) \
+if (block)                      \
+block(__VA_ARGS__)
+
+#define WS(weakSelf)        __weak __typeof(&*self)weakSelf = self
+
 
 /** 日志输出 */
 #ifdef DEBUG // 测试!
