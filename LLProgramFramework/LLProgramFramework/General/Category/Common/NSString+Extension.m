@@ -108,8 +108,94 @@
     return [predicate evaluateWithObject:self];
 }
 
-- (CGSize)ex_sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size
-{
+- (NSString *)trimString {
+    return [self stringByReplacingOccurrencesOfString:@" " withString:@""];
+}
+
+- (NSString *)parseIDNumber {
+    if (self.length<15)  return self;
+    NSString *head = [self substringToIndex:6];
+    NSString *foot = [self substringFromIndex:14];
+    return [NSString stringWithFormat:@"%@************%@",head,foot];
+}
+
+- (NSString *)addIDCardSpace {
+    if (self.length < 6) return self;
+    NSString *trimStr = [self trimString];
+    NSMutableString *strM = [NSMutableString stringWithString:self];
+    NSInteger length = trimStr.length;
+    if (length == 7 || length == 11 || length == 15) { // 添加空格
+        [strM insertString:@" " atIndex:self.length - 1];
+        return strM.copy;
+    }
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+
+- (NSString *)parsePhoneNum {
+    if (self.length < 11)  return self;
+    NSString *head = [self substringToIndex:3];
+    NSString *foot = [self substringFromIndex:7];
+    return [NSString stringWithFormat:@"%@****%@",head,foot];
+}
+
+- (NSString *)addPhoneSpace {
+    if (self.length < 4) return self;
+    NSString *trimStr = [self trimString];
+    NSMutableString *strM = [NSMutableString stringWithString:self];
+    NSInteger length = trimStr.length;
+    if (length == 4 || length == 8) { // 添加空格
+        [strM insertString:@" " atIndex:self.length - 1];
+        return strM.copy;
+    }
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+
+
+- (NSString *)addComm {
+    NSString * str = [self stringByReplacingOccurrencesOfString:@"," withString:@""];
+    NSInteger numl = [str length];
+    if (numl > 3 && numl < 7) {
+        str = [NSString stringWithFormat:@"%@,%@",
+               [str substringWithRange:NSMakeRange(0,numl-3)],
+               [str substringWithRange:NSMakeRange(numl-3,3)]];
+        return str;
+    }else if (numl>6 && numl < 10){
+        str =  [NSString stringWithFormat:@"%@,%@,%@",
+                [str substringWithRange:NSMakeRange(0,numl-6)],
+                [str substringWithRange:NSMakeRange(numl-6,3)],
+                [str substringWithRange:NSMakeRange(numl-3,3)]];
+        return str;
+    }else if (numl>9 && numl < 13){
+        str =  [NSString stringWithFormat:@"%@,%@,%@,%@",
+                [str substringWithRange:NSMakeRange(0,numl-9)],
+                [str substringWithRange:NSMakeRange(numl-9,3)],
+                [str substringWithRange:NSMakeRange(numl-6,3)],
+                [str substringWithRange:NSMakeRange(numl-3,3)]];
+        return str;
+    }else {
+        return str;
+    }
+}
+
+- (NSString *)removeComm {
+    return [self stringByReplacingOccurrencesOfString:@"," withString:@""];
+}
+
+- (int)textLength {    
+    float number = 0.0;
+    for (int index = 0; index < [self length]; index++) {
+        //一个汉字两个字节，应是+2.项目中数据库使用的mysql-utf8 一个汉字是3个字节，改成+3
+        NSString *character = [self substringWithRange:NSMakeRange(index, 1)];
+        if ([character lengthOfBytesUsingEncoding:NSUTF8StringEncoding] == 3){
+            number += 3;
+        }else{
+            number ++;
+        }
+    }
+    return ceil(number);
+}
+
+- (CGSize)ll_sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size {
     CGSize resultSize;
     if ([self respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)]) {
         NSMethodSignature *signature = [[self class] instanceMethodSignatureForSelector:@selector(boundingRectWithSize:options:attributes:context:)];

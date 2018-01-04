@@ -138,7 +138,7 @@
     [btn setTitle:title forState:UIControlStateHighlighted];
     [btn setTitleColor:kUIToneTextColor forState:UIControlStateNormal];
     [btn setTitleColor:kUIToneTextColor forState:UIControlStateHighlighted];
-    CGSize titleSize = [title ex_sizeWithFont:btn.titleLabel.font constrainedToSize:CGSizeMake(SCREEN_WIDTH, MAXFLOAT)];
+    CGSize titleSize = [title ll_sizeWithFont:btn.titleLabel.font constrainedToSize:CGSizeMake(SCREEN_WIDTH, MAXFLOAT)];
     float leight = titleSize.width;
     if (icon) {
         leight += icon.size.width;
@@ -212,7 +212,7 @@
     [btn setTitle:title forState:UIControlStateHighlighted];
     [btn setTitleColor:kUIToneTextColor forState:UIControlStateNormal];
     [btn setTitleColor:kUIToneTextColor forState:UIControlStateHighlighted];
-    CGSize titleSize = [title ex_sizeWithFont:btn.titleLabel.font constrainedToSize:CGSizeMake(SCREEN_WIDTH, MAXFLOAT)];
+    CGSize titleSize = [title ll_sizeWithFont:btn.titleLabel.font constrainedToSize:CGSizeMake(SCREEN_WIDTH, MAXFLOAT)];
     float leight = titleSize.width;
     [btn setFrame:CGRectMake(0, 0, leight, 30)];
     btn.titleEdgeInsets = UIEdgeInsetsMake(0, 5, 0, -5);

@@ -34,17 +34,15 @@ NSString * const kMenuItemNormalIconSelect = @"normal_icon_select";    //正常�
 }
 
 //加载menu json配置文件
-- (NSArray *)loadMenuData{
+- (NSArray *)loadMenuData {
     NSString *jsonPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"menu" ofType:@"json"];
     NSString *menuJson = [NSString stringWithContentsOfFile:jsonPath encoding:NSUTF8StringEncoding error:nil];
     NSDictionary *sortDict = [menuJson objectFromJSONString];
     return sortDict[@"tabbar_items"];
 }
-- (void)initTab
-{
+- (void)initTab {
     self.tabbars = [self loadMenuData];
     
-    //2.设置导航的文字
     UIColor *normalFontColor = [UIColor colorWithRed:51.0f / 255.0f
                                                green:51.0f / 255.0f
                                                 blue:51.0f / 255.0f

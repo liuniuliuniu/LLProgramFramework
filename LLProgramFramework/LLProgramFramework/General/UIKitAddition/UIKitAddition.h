@@ -11,4 +11,8 @@
 
 #import "UILabel+Addition.h"
 #import "UIButton+Addition.h"
+#import "UIButton+Block.m"
 #import "UITextField+Addition.h"
+#import "UIImage+Color.h"
+#import "UIView+Animation.h"
+#import "UIView+Addition.h"

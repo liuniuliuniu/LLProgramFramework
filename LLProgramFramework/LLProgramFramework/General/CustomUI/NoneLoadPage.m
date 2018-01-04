@@ -27,7 +27,7 @@
 
 + (instancetype)instanceNonePage:(dispatch_block_t)reloadBlock {
     static NoneLoadPage *nonePage = nil;
-    nonePage = [[NSBundle mainBundle] loadNibNamed:@"HHNonePage" owner:nil options:nil].firstObject;
+    nonePage = [[NSBundle mainBundle] loadNibNamed:@"NoneLoadPage" owner:nil options:nil].firstObject;
     CGRect pageFrame = {CGPointZero, SCREEN_SIZE};
     nonePage.frame = pageFrame;
     nonePage.reloadBlock = reloadBlock;

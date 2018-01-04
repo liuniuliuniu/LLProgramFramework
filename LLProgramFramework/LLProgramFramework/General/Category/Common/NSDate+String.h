@@ -14,6 +14,14 @@
 + (nonnull NSDateFormatter *)sharedDateFormatter;
 + (nonnull NSCalendar *)sharedCalendar;
 
+
+/**
+ 获取当前日期字符串
+
+ @return 样式:2017-01-07
+ */
++ (NSString *_Nullable)dateNowString;
+
 #pragma mark - 日期方法
 /// 返回指定时间差值的日期字符串
 ///

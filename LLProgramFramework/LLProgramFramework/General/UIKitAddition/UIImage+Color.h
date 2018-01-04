@@ -10,6 +10,12 @@
 
 @interface UIImage (Color)
 
+/**
+ 根据颜色返回图片
+
+ @param color 颜色
+ @return 图片
+ */
 + (UIImage*)createImageWithColor:(UIColor*) color;
 
 @end

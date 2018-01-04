@@ -30,7 +30,10 @@
 #define NAVIGATION_HEIGHT_IPHONEX 88
 #define TAB_BAR_HEIGHT (IS_IPHONEX ? 83 : 49)
 #define STATUS_BAR_HEIGHT (IS_IPHONEX ? 44 : 20)
-
+// 适配因子
+#define Scale(num) num*screenWidth/375
+// 按屏幕大小缩放
+#define MAIN_SCALE (IS_IPHONE5?0.9:(IS_IPHONE6?1:1.1))
 
 // MARK: 设备相关
 #define IS_IPHONE4 [[UIScreen mainScreen] bounds].size.height == 480.0
