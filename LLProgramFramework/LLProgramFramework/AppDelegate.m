@@ -10,6 +10,8 @@
 
 @interface AppDelegate ()
 
+@property (nonatomic, assign) UIBackgroundTaskIdentifier backgroundTaskIdentifier;
+
 @end
 
 @implementation AppDelegate
@@ -19,6 +21,13 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+        
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        self.mainView = [MainViewController new];
+//        self.window.rootViewController = self.mainView;
+//        [self.window makeKeyAndVisible];
+//    });
+    
     self.mainView = [MainViewController new];
     self.window.rootViewController = self.mainView;
     [self.window makeKeyAndVisible];

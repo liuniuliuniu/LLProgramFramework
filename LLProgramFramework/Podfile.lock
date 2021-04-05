@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FLAnimatedImage (1.0.12)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
@@ -28,15 +29,17 @@ PODS:
   - ReactiveCocoa/Core (2.1.8):
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/no-arc (2.1.8)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - SDWebImage/Core (4.4.8)
+  - SDWebImage/GIF (4.4.8):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
   - UICKeyChainStore (2.1.1)
   - "UITableView+FDTemplateLayoutCell (1.4)"
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
+  - FLAnimatedImage (~> 1.0)
   - FMDB
   - IQKeyboardManager
   - Masonry
@@ -44,13 +47,13 @@ DEPENDENCIES:
   - MJRefresh
   - Reachability
   - ReactiveCocoa (~> 2.1.8)
-  - SDWebImage
+  - SDWebImage/GIF
   - UICKeyChainStore
   - "UITableView+FDTemplateLayoutCell"
   - YYModel
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - FMDB
     - IQKeyboardManager
@@ -59,13 +62,16 @@ SPEC REPOS:
     - MJRefresh
     - Reachability
     - ReactiveCocoa
-    - SDWebImage
     - UICKeyChainStore
     - "UITableView+FDTemplateLayoutCell"
     - YYModel
+  trunk:
+    - FLAnimatedImage
+    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
@@ -73,11 +79,11 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
   UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
   "UITableView+FDTemplateLayoutCell": 234e1582bcc4e18461af91155123bb96538ed030
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 7de223892f91cc00536de727ef27c67fc1912e3d
+PODFILE CHECKSUM: 16e78d6f4912e74c1d2ed0787f92c3101f1484fc
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.10.0

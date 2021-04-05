@@ -11,6 +11,13 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        NSLog(@"************* main **************");
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
+
+__attribute__((constructor))
+static void registerModule(void) {
+    NSLog(@"*************__attribute__((constructor)) 修饰的方法 main之前 **************");
+}
+

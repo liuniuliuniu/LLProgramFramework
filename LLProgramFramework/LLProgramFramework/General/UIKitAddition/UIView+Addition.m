@@ -7,8 +7,28 @@
 //
 
 #import "UIView+Addition.h"
+#import <objc/runtime.h>
 
 @implementation UIView (Addition)
+
++ (void)load {
+    Method origin = class_getInstanceMethod(self, @selector(hitTest:withEvent:));
+    Method swizMethod = class_getInstanceMethod(self, @selector(LL_hitTest:withEvent:));
+    method_exchangeImplementations(origin, swizMethod);
+    
+    Method pointOrigin = class_getInstanceMethod(self, @selector(pointInside:withEvent:));
+    Method pointSwized = class_getInstanceMethod(self, @selector(LL_pointInside:withEvent:));
+    method_exchangeImplementations(pointOrigin, pointSwized);
+}
+
+- (UIView *)LL_hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    UIView *v = [self LL_hitTest:point withEvent:event];
+    return v;
+}
+
+- (BOOL)LL_pointInside:(CGPoint)point withEvent:(UIEvent *)event {
+    return [self LL_pointInside:point withEvent:event];
+}
 
 - (UIViewController *)viewController {
     

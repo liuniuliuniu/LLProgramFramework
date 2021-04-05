@@ -7,8 +7,8 @@
 
 //
 
-#import "BaseViewController.h"
+#import "LLBaseTableViewController.h"
 
-@interface MeViewController : BaseViewController
+@interface MeViewController : LLBaseTableViewController
 
 @end

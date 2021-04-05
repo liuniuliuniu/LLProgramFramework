@@ -7,7 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2DBE3E261AF061008B679E /* LLCommonGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DBE3D261AF061008B679E /* LLCommonGuide.m */; };
 		8C4AB2B11F5ED2120082DC13 /* LLKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4AB2B01F5ED2120082DC13 /* LLKeyValueStore.m */; };
+		8C4C44EE25D172B1009B0A3D /* LLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C44ED25D172B1009B0A3D /* LLBaseTableViewController.m */; };
+		8C799BCD25F7C26400DB79BE /* LLContainerViewController+SiblingViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C799BCC25F7C26400DB79BE /* LLContainerViewController+SiblingViewLayout.m */; };
+		8C799BD325F7C2BA00DB79BE /* LLContainerBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C799BD225F7C2BA00DB79BE /* LLContainerBackgroundViewController.m */; };
+		8C9265B025E9FBCC00530DEF /* LLAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9265AF25E9FBCC00530DEF /* LLAnimationViewController.m */; };
+		8C9B4E6025EE1F790097C4C2 /* BDPTeenagerPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B4E5F25EE1F790097C4C2 /* BDPTeenagerPasswordView.m */; };
+		8C9B4E6625EE1F9F0097C4C2 /* LLPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B4E6525EE1F9F0097C4C2 /* LLPasswordViewController.m */; };
+		8C9B4E6F25EE227B0097C4C2 /* BDPTeenagerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B4E6E25EE227B0097C4C2 /* BDPTeenagerTextField.m */; };
+		8C9B4E7525EE2E8C0097C4C2 /* BDPTeenagerTextFieldItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B4E7425EE2E8C0097C4C2 /* BDPTeenagerTextFieldItemView.m */; };
+		8CB17B3B25EB81B8009491F9 /* LLContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B3A25EB81B8009491F9 /* LLContainerViewController.m */; };
+		8CB17B4125EB82AA009491F9 /* LLContainerEventDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B4025EB82AA009491F9 /* LLContainerEventDispatch.m */; };
+		8CB17B4725EB8907009491F9 /* LLContainerEventRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B4625EB8907009491F9 /* LLContainerEventRegister.m */; };
+		8CB17B5425EB8A5B009491F9 /* LLContainerRootScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B5325EB8A5B009491F9 /* LLContainerRootScrollView.m */; };
+		8CB17B5D25EB8CC6009491F9 /* LLContainerUIComponentRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B5C25EB8CC6009491F9 /* LLContainerUIComponentRegister.m */; };
+		8CB17B6325EB8CEC009491F9 /* LLContainerUIComponentAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B6225EB8CEC009491F9 /* LLContainerUIComponentAttribute.m */; };
+		8CB17B7A25EB9FBD009491F9 /* LLContainerTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B7925EB9FBD009491F9 /* LLContainerTopViewController.m */; };
+		8CB17B8025EB9FD1009491F9 /* LLContainerMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B7F25EB9FD1009491F9 /* LLContainerMiddleViewController.m */; };
+		8CB17B8625EB9FE6009491F9 /* LLContainerDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB17B8525EB9FE6009491F9 /* LLContainerDownViewController.m */; };
+		8CD6135C25DF636000BE5525 /* LLSDWebImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6135B25DF636000BE5525 /* LLSDWebImageViewController.m */; };
+		8CE0F93C25D18510005CF9BD /* LLThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0F93B25D18510005CF9BD /* LLThreadViewController.m */; };
+		8CE0FB3425D18ACE005CF9BD /* LLProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0FB3325D18ACE005CF9BD /* LLProtocolViewController.m */; };
+		8CEFA3D9261A9A3F0048BAF1 /* LLContainerViewController+FlowViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFA3D8261A9A3F0048BAF1 /* LLContainerViewController+FlowViewLayout.m */; };
 		9638557E1FFCA9F5005DDFBC /* LLLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 9638557D1FFCA9F5005DDFBC /* LLLoading.m */; };
 		963855811FFCAA87005DDFBC /* LLLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963855801FFCAA87005DDFBC /* LLLoadingView.m */; };
 		963855831FFCAA91005DDFBC /* LLLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963855821FFCAA91005DDFBC /* LLLoadingView.xib */; };
@@ -35,7 +57,7 @@
 		D292E5531E950C1800EA0D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D292E5511E950C1800EA0D16 /* LaunchScreen.storyboard */; };
 		D292E55E1E950C1800EA0D16 /* LLProgramFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E55D1E950C1800EA0D16 /* LLProgramFrameworkTests.m */; };
 		D292E5691E950C1800EA0D16 /* LLProgramFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E5681E950C1800EA0D16 /* LLProgramFrameworkUITests.m */; };
-		D292E5B91E9513B800EA0D16 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E57C1E9513B800EA0D16 /* BaseModel.m */; };
+		D292E5B91E9513B800EA0D16 /* LLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E57C1E9513B800EA0D16 /* LLBaseModel.m */; };
 		D292E5BA1E9513B800EA0D16 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E57E1E9513B800EA0D16 /* BaseNavigationController.m */; };
 		D292E5BB1E9513B800EA0D16 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E5801E9513B800EA0D16 /* BaseViewController.m */; };
 		D292E5BC1E9513B800EA0D16 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = D292E5841E9513B800EA0D16 /* MBProgressHUD+Add.m */; };
@@ -65,7 +87,6 @@
 		D2977AF81EB08AFD00138922 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = D2977AF71EB08AFD00138922 /* menu.json */; };
 		D2977B0D1EB08B0800138922 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B041EB08B0800138922 /* MainViewController.m */; };
 		D2977B0E1EB08B0800138922 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B071EB08B0800138922 /* MeViewController.m */; };
-		D2977B0F1EB08B0800138922 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2977B081EB08B0800138922 /* MeViewController.xib */; };
 		D2977B161EB08B1000138922 /* XAFServicesMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B151EB08B1000138922 /* XAFServicesMVC.m */; };
 		D2977B471EB08B1A00138922 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B1A1EB08B1900138922 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		D2977B491EB08B1A00138922 /* YTKKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D2977B201EB08B1900138922 /* YTKKeyValueStore.m */; };
@@ -106,8 +127,58 @@
 /* Begin PBXFileReference section */
 		3080D7B7EB27A98F83BF7A38 /* Pods-LLProgramFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLProgramFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLProgramFramework/Pods-LLProgramFramework.release.xcconfig"; sourceTree = "<group>"; };
 		533FEF0E91AE415669FB93A6 /* Pods-LLProgramFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLProgramFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLProgramFramework/Pods-LLProgramFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		8C2DBE3C261AF061008B679E /* LLCommonGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCommonGuide.h; sourceTree = "<group>"; };
+		8C2DBE3D261AF061008B679E /* LLCommonGuide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCommonGuide.m; sourceTree = "<group>"; };
+		8C2DBE42261AF240008B679E /* LLContainerObserveEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerObserveEventDelegate.h; sourceTree = "<group>"; };
 		8C4AB2AF1F5ED2120082DC13 /* LLKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLKeyValueStore.h; sourceTree = "<group>"; };
 		8C4AB2B01F5ED2120082DC13 /* LLKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLKeyValueStore.m; sourceTree = "<group>"; };
+		8C4C44EC25D172B1009B0A3D /* LLBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBaseTableViewController.h; sourceTree = "<group>"; };
+		8C4C44ED25D172B1009B0A3D /* LLBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLBaseTableViewController.m; sourceTree = "<group>"; };
+		8C799BCB25F7C26400DB79BE /* LLContainerViewController+SiblingViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLContainerViewController+SiblingViewLayout.h"; sourceTree = "<group>"; };
+		8C799BCC25F7C26400DB79BE /* LLContainerViewController+SiblingViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLContainerViewController+SiblingViewLayout.m"; sourceTree = "<group>"; };
+		8C799BD125F7C2BA00DB79BE /* LLContainerBackgroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerBackgroundViewController.h; sourceTree = "<group>"; };
+		8C799BD225F7C2BA00DB79BE /* LLContainerBackgroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerBackgroundViewController.m; sourceTree = "<group>"; };
+		8C9265AE25E9FBCC00530DEF /* LLAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAnimationViewController.h; sourceTree = "<group>"; };
+		8C9265AF25E9FBCC00530DEF /* LLAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAnimationViewController.m; sourceTree = "<group>"; };
+		8C9B4E5E25EE1F790097C4C2 /* BDPTeenagerPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDPTeenagerPasswordView.h; sourceTree = "<group>"; };
+		8C9B4E5F25EE1F790097C4C2 /* BDPTeenagerPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDPTeenagerPasswordView.m; sourceTree = "<group>"; };
+		8C9B4E6425EE1F9F0097C4C2 /* LLPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPasswordViewController.h; sourceTree = "<group>"; };
+		8C9B4E6525EE1F9F0097C4C2 /* LLPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPasswordViewController.m; sourceTree = "<group>"; };
+		8C9B4E6D25EE227B0097C4C2 /* BDPTeenagerTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDPTeenagerTextField.h; sourceTree = "<group>"; };
+		8C9B4E6E25EE227B0097C4C2 /* BDPTeenagerTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDPTeenagerTextField.m; sourceTree = "<group>"; };
+		8C9B4E7325EE2E8C0097C4C2 /* BDPTeenagerTextFieldItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDPTeenagerTextFieldItemView.h; sourceTree = "<group>"; };
+		8C9B4E7425EE2E8C0097C4C2 /* BDPTeenagerTextFieldItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDPTeenagerTextFieldItemView.m; sourceTree = "<group>"; };
+		8CB17B3925EB81B8009491F9 /* LLContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerViewController.h; sourceTree = "<group>"; };
+		8CB17B3A25EB81B8009491F9 /* LLContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerViewController.m; sourceTree = "<group>"; };
+		8CB17B3F25EB82AA009491F9 /* LLContainerEventDispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerEventDispatch.h; sourceTree = "<group>"; };
+		8CB17B4025EB82AA009491F9 /* LLContainerEventDispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerEventDispatch.m; sourceTree = "<group>"; };
+		8CB17B4525EB8907009491F9 /* LLContainerEventRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerEventRegister.h; sourceTree = "<group>"; };
+		8CB17B4625EB8907009491F9 /* LLContainerEventRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerEventRegister.m; sourceTree = "<group>"; };
+		8CB17B5225EB8A5B009491F9 /* LLContainerRootScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerRootScrollView.h; sourceTree = "<group>"; };
+		8CB17B5325EB8A5B009491F9 /* LLContainerRootScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerRootScrollView.m; sourceTree = "<group>"; };
+		8CB17B5B25EB8CC6009491F9 /* LLContainerUIComponentRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerUIComponentRegister.h; sourceTree = "<group>"; };
+		8CB17B5C25EB8CC6009491F9 /* LLContainerUIComponentRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerUIComponentRegister.m; sourceTree = "<group>"; };
+		8CB17B6125EB8CEC009491F9 /* LLContainerUIComponentAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerUIComponentAttribute.h; sourceTree = "<group>"; };
+		8CB17B6225EB8CEC009491F9 /* LLContainerUIComponentAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerUIComponentAttribute.m; sourceTree = "<group>"; };
+		8CB17B6725EB91C4009491F9 /* LLContainerUIComponentStandardDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerUIComponentStandardDelegate.h; sourceTree = "<group>"; };
+		8CB17B7425EB9ED6009491F9 /* LLContainerUIComponentAttribute+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLContainerUIComponentAttribute+Private.h"; sourceTree = "<group>"; };
+		8CB17B7825EB9FBD009491F9 /* LLContainerTopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerTopViewController.h; sourceTree = "<group>"; };
+		8CB17B7925EB9FBD009491F9 /* LLContainerTopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerTopViewController.m; sourceTree = "<group>"; };
+		8CB17B7E25EB9FD1009491F9 /* LLContainerMiddleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerMiddleViewController.h; sourceTree = "<group>"; };
+		8CB17B7F25EB9FD1009491F9 /* LLContainerMiddleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerMiddleViewController.m; sourceTree = "<group>"; };
+		8CB17B8425EB9FE6009491F9 /* LLContainerDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContainerDownViewController.h; sourceTree = "<group>"; };
+		8CB17B8525EB9FE6009491F9 /* LLContainerDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContainerDownViewController.m; sourceTree = "<group>"; };
+		8CB17BA325EBA73B009491F9 /* LLContainerViewController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLContainerViewController+Private.h"; sourceTree = "<group>"; };
+		8CD6135A25DF636000BE5525 /* LLSDWebImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSDWebImageViewController.h; sourceTree = "<group>"; };
+		8CD6135B25DF636000BE5525 /* LLSDWebImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSDWebImageViewController.m; sourceTree = "<group>"; };
+		8CE0F93A25D18510005CF9BD /* LLThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLThreadViewController.h; sourceTree = "<group>"; };
+		8CE0F93B25D18510005CF9BD /* LLThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLThreadViewController.m; sourceTree = "<group>"; };
+		8CE0FB3225D18ACE005CF9BD /* LLProtocolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLProtocolViewController.h; sourceTree = "<group>"; };
+		8CE0FB3325D18ACE005CF9BD /* LLProtocolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProtocolViewController.m; sourceTree = "<group>"; };
+		8CE0FB3C25D18B77005CF9BD /* LLProcotolRun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLProcotolRun.h; sourceTree = "<group>"; };
+		8CE0FB3D25D18B84005CF9BD /* LLProtocolEat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLProtocolEat.h; sourceTree = "<group>"; };
+		8CEFA3D7261A9A3F0048BAF1 /* LLContainerViewController+FlowViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLContainerViewController+FlowViewLayout.h"; sourceTree = "<group>"; };
+		8CEFA3D8261A9A3F0048BAF1 /* LLContainerViewController+FlowViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LLContainerViewController+FlowViewLayout.m"; sourceTree = "<group>"; };
 		9638557C1FFCA9F5005DDFBC /* LLLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLLoading.h; sourceTree = "<group>"; };
 		9638557D1FFCA9F5005DDFBC /* LLLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLLoading.m; sourceTree = "<group>"; };
 		9638557F1FFCAA87005DDFBC /* LLLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLLoadingView.h; sourceTree = "<group>"; };
@@ -159,8 +230,8 @@
 		D292E5681E950C1800EA0D16 /* LLProgramFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProgramFrameworkUITests.m; sourceTree = "<group>"; };
 		D292E56A1E950C1800EA0D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D292E5781E95127A00EA0D16 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		D292E57B1E9513B800EA0D16 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		D292E57C1E9513B800EA0D16 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		D292E57B1E9513B800EA0D16 /* LLBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBaseModel.h; sourceTree = "<group>"; };
+		D292E57C1E9513B800EA0D16 /* LLBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBaseModel.m; sourceTree = "<group>"; };
 		D292E57D1E9513B800EA0D16 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		D292E57E1E9513B800EA0D16 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		D292E57F1E9513B800EA0D16 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -221,7 +292,6 @@
 		D2977B041EB08B0800138922 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D2977B061EB08B0800138922 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		D2977B071EB08B0800138922 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
-		D2977B081EB08B0800138922 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
 		D2977B141EB08B1000138922 /* XAFServicesMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAFServicesMVC.h; sourceTree = "<group>"; };
 		D2977B151EB08B1000138922 /* XAFServicesMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAFServicesMVC.m; sourceTree = "<group>"; };
 		D2977B191EB08B1900138922 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
@@ -303,6 +373,128 @@
 				B54360FE5A34F0F7CC5CDFF2 /* libPods-LLProgramFramework.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C9265AD25E9FBA600530DEF /* AnimationItem */ = {
+			isa = PBXGroup;
+			children = (
+				8C9265AE25E9FBCC00530DEF /* LLAnimationViewController.h */,
+				8C9265AF25E9FBCC00530DEF /* LLAnimationViewController.m */,
+			);
+			path = AnimationItem;
+			sourceTree = "<group>";
+		};
+		8C9B4E5725EE1F0E0097C4C2 /* PasswordItem */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B4E6425EE1F9F0097C4C2 /* LLPasswordViewController.h */,
+				8C9B4E6525EE1F9F0097C4C2 /* LLPasswordViewController.m */,
+				8C9B4E5E25EE1F790097C4C2 /* BDPTeenagerPasswordView.h */,
+				8C9B4E5F25EE1F790097C4C2 /* BDPTeenagerPasswordView.m */,
+				8C9B4E7325EE2E8C0097C4C2 /* BDPTeenagerTextFieldItemView.h */,
+				8C9B4E7425EE2E8C0097C4C2 /* BDPTeenagerTextFieldItemView.m */,
+				8C9B4E6D25EE227B0097C4C2 /* BDPTeenagerTextField.h */,
+				8C9B4E6E25EE227B0097C4C2 /* BDPTeenagerTextField.m */,
+			);
+			path = PasswordItem;
+			sourceTree = "<group>";
+		};
+		8CB17B3825EB8197009491F9 /* ContainerItem */ = {
+			isa = PBXGroup;
+			children = (
+				8CB17B5125EB89E2009491F9 /* Container */,
+				8CB17B4B25EB898C009491F9 /* Conponents */,
+			);
+			path = ContainerItem;
+			sourceTree = "<group>";
+		};
+		8CB17B4B25EB898C009491F9 /* Conponents */ = {
+			isa = PBXGroup;
+			children = (
+				8CB17B4D25EB89AF009491F9 /* NonUIComponent */,
+				8CB17B4C25EB89A3009491F9 /* UIConponent */,
+			);
+			path = Conponents;
+			sourceTree = "<group>";
+		};
+		8CB17B4C25EB89A3009491F9 /* UIConponent */ = {
+			isa = PBXGroup;
+			children = (
+				8CB17B7825EB9FBD009491F9 /* LLContainerTopViewController.h */,
+				8CB17B7925EB9FBD009491F9 /* LLContainerTopViewController.m */,
+				8CB17B7E25EB9FD1009491F9 /* LLContainerMiddleViewController.h */,
+				8CB17B7F25EB9FD1009491F9 /* LLContainerMiddleViewController.m */,
+				8CB17B8425EB9FE6009491F9 /* LLContainerDownViewController.h */,
+				8CB17B8525EB9FE6009491F9 /* LLContainerDownViewController.m */,
+				8C799BD125F7C2BA00DB79BE /* LLContainerBackgroundViewController.h */,
+				8C799BD225F7C2BA00DB79BE /* LLContainerBackgroundViewController.m */,
+			);
+			path = UIConponent;
+			sourceTree = "<group>";
+		};
+		8CB17B4D25EB89AF009491F9 /* NonUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DBE3C261AF061008B679E /* LLCommonGuide.h */,
+				8C2DBE3D261AF061008B679E /* LLCommonGuide.m */,
+			);
+			path = NonUIComponent;
+			sourceTree = "<group>";
+		};
+		8CB17B5125EB89E2009491F9 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				8CB17B3925EB81B8009491F9 /* LLContainerViewController.h */,
+				8CB17B3A25EB81B8009491F9 /* LLContainerViewController.m */,
+				8C799BCB25F7C26400DB79BE /* LLContainerViewController+SiblingViewLayout.h */,
+				8C799BCC25F7C26400DB79BE /* LLContainerViewController+SiblingViewLayout.m */,
+				8CB17B3F25EB82AA009491F9 /* LLContainerEventDispatch.h */,
+				8CB17B4025EB82AA009491F9 /* LLContainerEventDispatch.m */,
+				8CB17B4525EB8907009491F9 /* LLContainerEventRegister.h */,
+				8CB17B4625EB8907009491F9 /* LLContainerEventRegister.m */,
+				8CB17B5225EB8A5B009491F9 /* LLContainerRootScrollView.h */,
+				8CB17B5325EB8A5B009491F9 /* LLContainerRootScrollView.m */,
+				8CEFA3D7261A9A3F0048BAF1 /* LLContainerViewController+FlowViewLayout.h */,
+				8CEFA3D8261A9A3F0048BAF1 /* LLContainerViewController+FlowViewLayout.m */,
+				8CB17BA325EBA73B009491F9 /* LLContainerViewController+Private.h */,
+				8CB17B5B25EB8CC6009491F9 /* LLContainerUIComponentRegister.h */,
+				8CB17B5C25EB8CC6009491F9 /* LLContainerUIComponentRegister.m */,
+				8CB17B7425EB9ED6009491F9 /* LLContainerUIComponentAttribute+Private.h */,
+				8CB17B6125EB8CEC009491F9 /* LLContainerUIComponentAttribute.h */,
+				8CB17B6225EB8CEC009491F9 /* LLContainerUIComponentAttribute.m */,
+				8CB17B6725EB91C4009491F9 /* LLContainerUIComponentStandardDelegate.h */,
+				8C2DBE42261AF240008B679E /* LLContainerObserveEventDelegate.h */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		8CD6135925DF632A00BE5525 /* SDWebImageItem */ = {
+			isa = PBXGroup;
+			children = (
+				8CD6135A25DF636000BE5525 /* LLSDWebImageViewController.h */,
+				8CD6135B25DF636000BE5525 /* LLSDWebImageViewController.m */,
+			);
+			path = SDWebImageItem;
+			sourceTree = "<group>";
+		};
+		8CE0F93925D184F1005CF9BD /* ThreadItem */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0F93A25D18510005CF9BD /* LLThreadViewController.h */,
+				8CE0F93B25D18510005CF9BD /* LLThreadViewController.m */,
+			);
+			path = ThreadItem;
+			sourceTree = "<group>";
+		};
+		8CE0FB3825D18ADA005CF9BD /* ProtocolItem */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0FB3225D18ACE005CF9BD /* LLProtocolViewController.h */,
+				8CE0FB3325D18ACE005CF9BD /* LLProtocolViewController.m */,
+				8CE0FB3C25D18B77005CF9BD /* LLProcotolRun.h */,
+				8CE0FB3D25D18B84005CF9BD /* LLProtocolEat.h */,
+			);
+			path = ProtocolItem;
 			sourceTree = "<group>";
 		};
 		9638557B1FFCA9D3005DDFBC /* LLLodingView */ = {
@@ -464,12 +656,14 @@
 		D292E57A1E9513B800EA0D16 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				D292E57B1E9513B800EA0D16 /* BaseModel.h */,
-				D292E57C1E9513B800EA0D16 /* BaseModel.m */,
+				D292E57B1E9513B800EA0D16 /* LLBaseModel.h */,
+				D292E57C1E9513B800EA0D16 /* LLBaseModel.m */,
 				D292E57D1E9513B800EA0D16 /* BaseNavigationController.h */,
 				D292E57E1E9513B800EA0D16 /* BaseNavigationController.m */,
 				D292E57F1E9513B800EA0D16 /* BaseViewController.h */,
 				D292E5801E9513B800EA0D16 /* BaseViewController.m */,
+				8C4C44EC25D172B1009B0A3D /* LLBaseTableViewController.h */,
+				8C4C44ED25D172B1009B0A3D /* LLBaseTableViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -645,7 +839,12 @@
 			children = (
 				D2977B061EB08B0800138922 /* MeViewController.h */,
 				D2977B071EB08B0800138922 /* MeViewController.m */,
-				D2977B081EB08B0800138922 /* MeViewController.xib */,
+				8CE0F93925D184F1005CF9BD /* ThreadItem */,
+				8CE0FB3825D18ADA005CF9BD /* ProtocolItem */,
+				8CD6135925DF632A00BE5525 /* SDWebImageItem */,
+				8C9265AD25E9FBA600530DEF /* AnimationItem */,
+				8CB17B3825EB8197009491F9 /* ContainerItem */,
+				8C9B4E5725EE1F0E0097C4C2 /* PasswordItem */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -866,12 +1065,12 @@
 		D292E5381E950C1800EA0D16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = liushaohua;
 				TargetAttributes = {
 					D292E53F1E950C1800EA0D16 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 5KVUAK8MDB;
+						DevelopmentTeam = VU844ULJ93;
 						ProvisioningStyle = Automatic;
 					};
 					D292E5581E950C1800EA0D16 = {
@@ -888,7 +1087,7 @@
 			};
 			buildConfigurationList = D292E53B1E950C1800EA0D16 /* Build configuration list for PBXProject "LLProgramFramework" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -918,7 +1117,6 @@
 				D292E5531E950C1800EA0D16 /* LaunchScreen.storyboard in Resources */,
 				963855831FFCAA91005DDFBC /* LLLoadingView.xib in Resources */,
 				D292E5501E950C1800EA0D16 /* Assets.xcassets in Resources */,
-				D2977B0F1EB08B0800138922 /* MeViewController.xib in Resources */,
 				D292E54E1E950C1800EA0D16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -988,8 +1186,11 @@
 				D292E5C91E9513B800EA0D16 /* NSDictionary+NSJSONSerialization.m in Sources */,
 				963855871FFCB8C2005DDFBC /* LLScaleLayoutConstraint.m in Sources */,
 				D292E5D41E9513B800EA0D16 /* UITextField+Addition.m in Sources */,
+				8C9B4E6025EE1F790097C4C2 /* BDPTeenagerPasswordView.m in Sources */,
 				D2977B571EB08B1A00138922 /* XAFServiceFactory.m in Sources */,
 				D2977B4D1EB08B1A00138922 /* NSDictionary+XAFNetworking.m in Sources */,
+				8C9B4E6625EE1F9F0097C4C2 /* LLPasswordViewController.m in Sources */,
+				8C9B4E7525EE2E8C0097C4C2 /* BDPTeenagerTextFieldItemView.m in Sources */,
 				D2977B521EB08B1A00138922 /* XAFAPIBaseManager.m in Sources */,
 				96A3E4991F8E061200E18557 /* LLHomeCell.m in Sources */,
 				96A3E48A1F8DFFA800E18557 /* LLHomeViewController.m in Sources */,
@@ -999,16 +1200,22 @@
 				D2977B501EB08B1A00138922 /* NSURLRequest+XNetworkingMethods.m in Sources */,
 				D2977B4C1EB08B1A00138922 /* NSArray+XAFNetworking.m in Sources */,
 				D292E5D21E9513B800EA0D16 /* UIButton+Addition.m in Sources */,
+				8CB17B4725EB8907009491F9 /* LLContainerEventRegister.m in Sources */,
+				8CB17B7A25EB9FBD009491F9 /* LLContainerTopViewController.m in Sources */,
 				D292E5BE1E9513B800EA0D16 /* NSDate+String.m in Sources */,
+				8CB17B6325EB8CEC009491F9 /* LLContainerUIComponentAttribute.m in Sources */,
 				D2977B491EB08B1A00138922 /* YTKKeyValueStore.m in Sources */,
 				96A3E4951F8E01C100E18557 /* RequestManage.m in Sources */,
 				D2977B4F1EB08B1A00138922 /* NSString+XAFNetworking.m in Sources */,
 				D292E54B1E950C1800EA0D16 /* ViewController.m in Sources */,
 				D292E5CA1E9513B800EA0D16 /* NSString+NSJSONSerialization.m in Sources */,
+				8CB17B8025EB9FD1009491F9 /* LLContainerMiddleViewController.m in Sources */,
 				D292E5C51E9513B800EA0D16 /* FrameUtils.m in Sources */,
 				D292E5BF1E9513B800EA0D16 /* NSDictionary+XJSONString.m in Sources */,
+				8CE0FB3425D18ACE005CF9BD /* LLProtocolViewController.m in Sources */,
 				D292E5BC1E9513B800EA0D16 /* MBProgressHUD+Add.m in Sources */,
 				D292E5CB1E9513B800EA0D16 /* AddClickButton.m in Sources */,
+				8CD6135C25DF636000BE5525 /* LLSDWebImageViewController.m in Sources */,
 				D292E5D31E9513B800EA0D16 /* UILabel+Addition.m in Sources */,
 				D292E5C71E9513B800EA0D16 /* UIView+FrameUtils.m in Sources */,
 				D292E5BB1E9513B800EA0D16 /* BaseViewController.m in Sources */,
@@ -1019,7 +1226,9 @@
 				D2977B4E1EB08B1A00138922 /* NSObject+XNetworkingMethods.m in Sources */,
 				D2977B0E1EB08B0800138922 /* MeViewController.m in Sources */,
 				D292E5C11E9513B800EA0D16 /* NSString+MD5.m in Sources */,
+				8C4C44EE25D172B1009B0A3D /* LLBaseTableViewController.m in Sources */,
 				963855DA1FFCDD6F005DDFBC /* UIDevice+Category.m in Sources */,
+				8CEFA3D9261A9A3F0048BAF1 /* LLContainerViewController+FlowViewLayout.m in Sources */,
 				D292E5481E950C1800EA0D16 /* AppDelegate.m in Sources */,
 				963855E31FFCDEF0005DDFBC /* NSMutableArray+safe.m in Sources */,
 				963855811FFCAA87005DDFBC /* LLLoadingView.m in Sources */,
@@ -1028,15 +1237,18 @@
 				9638558A1FFCC049005DDFBC /* UIView+Animation.m in Sources */,
 				D292E5BD1E9513B800EA0D16 /* NSArray+XJSONString.m in Sources */,
 				9638557E1FFCA9F5005DDFBC /* LLLoading.m in Sources */,
+				8CB17B5425EB8A5B009491F9 /* LLContainerRootScrollView.m in Sources */,
 				D292E5CF1E9513B800EA0D16 /* NoneLoadPage.m in Sources */,
 				D292E5CD1E9513B800EA0D16 /* NoneDataPage.m in Sources */,
+				8CB17B3B25EB81B8009491F9 /* LLContainerViewController.m in Sources */,
 				D2977B0D1EB08B0800138922 /* MainViewController.m in Sources */,
+				8CB17B5D25EB8CC6009491F9 /* LLContainerUIComponentRegister.m in Sources */,
 				963855E11FFCDEF0005DDFBC /* NSDictionary+safe.m in Sources */,
 				D2977B531EB08B1A00138922 /* XAFApiProxy.m in Sources */,
 				96A3E48D1F8DFFC100E18557 /* LLHomeModel.m in Sources */,
 				963855E21FFCDEF0005DDFBC /* NSNull+safe.m in Sources */,
 				D292E5CC1E9513B800EA0D16 /* AuthCodeView.m in Sources */,
-				D292E5B91E9513B800EA0D16 /* BaseModel.m in Sources */,
+				D292E5B91E9513B800EA0D16 /* LLBaseModel.m in Sources */,
 				D2977B581EB08B1A00138922 /* XAFServices.m in Sources */,
 				D2977B541EB08B1A00138922 /* XAFAppContext.m in Sources */,
 				D2977B4B1EB08B1A00138922 /* XAFRequestGenerator.m in Sources */,
@@ -1046,10 +1258,18 @@
 				D292E5C61E9513B800EA0D16 /* UIView+Frame.m in Sources */,
 				8C4AB2B11F5ED2120082DC13 /* LLKeyValueStore.m in Sources */,
 				963855911FFCC561005DDFBC /* UIView+Addition.m in Sources */,
+				8C799BD325F7C2BA00DB79BE /* LLContainerBackgroundViewController.m in Sources */,
+				8CB17B8625EB9FE6009491F9 /* LLContainerDownViewController.m in Sources */,
 				D292E5451E950C1800EA0D16 /* main.m in Sources */,
+				8CB17B4125EB82AA009491F9 /* LLContainerEventDispatch.m in Sources */,
+				8C9265B025E9FBCC00530DEF /* LLAnimationViewController.m in Sources */,
+				8C799BCD25F7C26400DB79BE /* LLContainerViewController+SiblingViewLayout.m in Sources */,
+				8C9B4E6F25EE227B0097C4C2 /* BDPTeenagerTextField.m in Sources */,
 				963855E61FFCDF13005DDFBC /* NSObject+swizzling.m in Sources */,
+				8CE0F93C25D18510005CF9BD /* LLThreadViewController.m in Sources */,
 				D292E5BA1E9513B800EA0D16 /* BaseNavigationController.m in Sources */,
 				D2977B561EB08B1A00138922 /* XURLResponse.m in Sources */,
+				8C2DBE3E261AF061008B679E /* LLCommonGuide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1108,20 +1328,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1144,7 +1374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1155,20 +1385,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1185,7 +1425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1197,12 +1437,13 @@
 			baseConfigurationReference = 533FEF0E91AE415669FB93A6 /* Pods-LLProgramFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5KVUAK8MDB;
+				DEVELOPMENT_TEAM = VU844ULJ93;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LLProgramFramework/PrefixHeader.pch";
 				INFOPLIST_FILE = LLProgramFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dayingxiang.LLProgramFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = liushaohua02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1212,12 +1453,13 @@
 			baseConfigurationReference = 3080D7B7EB27A98F83BF7A38 /* Pods-LLProgramFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5KVUAK8MDB;
+				DEVELOPMENT_TEAM = VU844ULJ93;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LLProgramFramework/PrefixHeader.pch";
 				INFOPLIST_FILE = LLProgramFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dayingxiang.LLProgramFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = liushaohua02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
